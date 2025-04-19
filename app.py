@@ -1,5 +1,6 @@
 from flask import Flask, jsonify, render_template, request
 from dotenv import load_dotenv
+import os
 import pymysql
 
 # Load environment variables from .env file
