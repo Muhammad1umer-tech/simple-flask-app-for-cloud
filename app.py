@@ -7,7 +7,7 @@ load_dotenv()
 app = Flask(__name__)
 
 def get_db_connection():
-     connection = pymysql.connect(
+    connection = pymysql.connect(
         host=os.getenv('DB_HOST'),
         user=os.getenv('DB_USERNAME'),
         password=os.getenv('DB_PASSWORD'),
